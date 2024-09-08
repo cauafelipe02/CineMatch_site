@@ -12,7 +12,7 @@ let dados = [
         tags: "Viuva negra Natasha ação espionagem espião acao marvel"
     },
     {
-        image: "imagens/capita-marvel.jpg",
+        image: "imagens/Capita-marvel.jpg",
         titulo: "Capita Marvel",
         alt: "Capita Marvel filme imagem",
         tags: "Capita Marvel Marvél ação acao ficção cientifica marvel universo "
