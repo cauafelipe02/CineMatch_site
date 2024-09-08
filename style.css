@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 135vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Chakra Petch", sans-serif;
+
+    background-image: url('imagens/background-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 10rem;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/*navbar*/
+
+.navbar{
+    background-color: transparent;
+    border-bottom: 1px solid rgb(126, 126, 126, 0.1);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+.navbar a:hover{
+    color: #45474B;
+}
+
+.bi{
+    margin-right: 10px;
+}
+
+/*section 1 pesquisar*/
+
+.pesquisar{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 0px 5rem 0px;
+}
+
+.pesquisar h1{
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.4rem;
+    margin-bottom: 3rem;
+}
+
+.pesquisar input {
+    width: 30rem;
+    border: none;
+    padding: 1rem 48px;
+    top: 22rem;
+    border-radius: 1.5rem;
+
+    color: #45474B;
+    font-size: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.bi-search{
+    align-self: flex-start;
+    margin-left: 60px;
+    position: absolute;
+    padding: 0;
+    top: 22.9rem;
+}
+
+/*section 2 resultados da pesquisa*/
+
+.resultado-pesquisa{
+    height: 25rem;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+
+    gap: 1rem;
+    background-color: #53535386;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.resultado-pesquisa.hidden {
+    display: none;
+}
+
+.item-resultado{
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 100%;
+}
+
+.item-resultado img{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.item-resultado h2{
+    font-size: 1.5rem;
+    color: #5f88b4;
+}
+
+.resultado-pesquisa p{
+    font-size: 1.7rem;
+    color: #fff;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+}
+
+.filmes{
+    margin-top: 5rem;
+}
+
+/*rodapé*/
+
+footer{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;  
+    bottom: 0;
+    width: 100%;
+}
