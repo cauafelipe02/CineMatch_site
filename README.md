@@ -5,7 +5,7 @@ Este projeto web oferece uma experiência de busca intuitiva e personalizada par
 Com foco em filmes e séries da Marvel e Disney, o usuário pode explorar um vasto catálogo de títulos
 através de uma interface moderna e fácil de usar.
 
-## 🎬 Funcionalidades Principais:
+## 📌 Funcionalidades Principais:
 * **Busca Avançada:** Permite encontrar filmes e séries por título e gênero.
 * **Resultados Personalizados:** Exibe resultados relevantes com base na pesquisa do usuário.
 * **Interface Responsiva:** Adapta-se a diferentes dispositivos (desktop, tablets e smartphones).
